@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Page</title>
+    <link rel="stylesheet" href="../styles/recipeStyles.css">
+</head>
+<body>
+    <div class="main">
+
+        <h1 id="name"></h1>
+        
+        <!-- Image & Properties Section -->
+        <div class="image-section">
+            <img src="" alt="Recipe Image" id="image">
+            <div class="separator"></div>
+            <div class="props">
+                <p>
+                    <span class="icon">
+                        <img width="50" height="50" src="https://img.icons8.com/fluency-systems-regular/50/bowl-with-spoon.png" alt="bowl-with-spoon"/>    </span>
+                    <strong>Cuisine:</strong> <span id="cousine">Italian</span></p>
+                <p>
+                    <span class="icon">
+                        <img width="48" height="48" src="https://img.icons8.com/parakeet-line/48/meal.png" alt="meal"/>    </span>
+                    <strong>Meal Type:</strong> <span id="meal-type">Dinner</span></p>
+                
+                <p>
+                    <span class="icon">
+                        <img src="https://img.icons8.com/ios/50/clock.png"  alt="prep time"/> 
+                    </span>
+                    <strong>Preparation Time:</strong> <span id="prepTime">20</span> mins
+                </p>
+
+                <p>
+                    <span class="icon">
+                        <img width="50" height="50" src="https://img.icons8.com/ios/50/microwave.png" alt="microwave"/></span>
+                            <strong>Cooking Time:</strong> <span id="cookTime">15</span> mins
+                </p>
+
+                <p>
+                    <span class="icon">
+                        <img src="https://img.icons8.com/ios/50/dining-room.png"  alt="servings"/> 
+                    </span>
+                    <strong>Servings:</strong> <span id="servings">4</span>
+                </p>
+
+                <p>
+                    <span class="icon">
+                        <img src="https://img.icons8.com/ios/50/easy.png"  alt="difficulty"/> 
+                    </span>
+                    <strong>Difficulty:</strong> <span id="difficulty">Easy</span>
+                </p>
+
+                <p>
+                    <span class="icon">
+                        <img width="50" height="50" src="https://img.icons8.com/fluency-systems-regular/50/healthy-food-calories-calculator.png" alt="healthy-food-calories-calculator"/>   </span>
+                    <strong>Calories per Serving:</strong> <span id="cal">300</span> kcal
+                </p>
+
+                <p>
+                    <span class="icon">
+                        <img width="48" height="48" src="https://img.icons8.com/parakeet-line/48/star.png" alt="star"/>
+                          </span>
+                    <strong>Rating:</strong> <span id="ratings">4.6</span> (<span id="reviews">98</span> reviews)
+                </p>
+            </div>
+        </div>
+
+        <!-- Tags Section -->
+   <div class="tags-section">
+    <h2>Tags</h2>
+    <div class="tags" id="tags">
+            
+    </div>
+   </div>
+
+        <!-- Ingredients -->
+        <h2>Ingredients</h2>
+        <ul id="ingredients"></ul>
+
+        <!-- Instructions -->
+        <h2>Instructions</h2>
+        <ul id="instructions"></ul>
+        <a href="./blogList.html"><button class="button" >Go Back</button></a>
+
+        <script type="module" src="../Scripts/recipe.js"></script>
+    </div>
+</body>
+</html>
